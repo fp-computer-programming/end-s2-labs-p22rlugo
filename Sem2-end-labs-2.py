@@ -11,3 +11,6 @@ def solution(n,d):
     else:
         return table[-d:]
             
+print(solution(1,1) == [1])
+print(solution(1234,2) == [3,4])
+print(solution(637547,6) == [6, 3, 7, 5, 4, 7])
